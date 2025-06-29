@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build-x64-static:
-    # if windows-latest, might not find VS 2019
+    # if windows-latest, might not find VS 2019 #
     runs-on: windows-2019
 
 
