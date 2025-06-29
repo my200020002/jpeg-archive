@@ -103,7 +103,7 @@ jobs:
 
 
     - name: Upload Binaries
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4.6.2
       with:
         name: release-x64-static
         # Static build doesn't need jpeg*.dll
